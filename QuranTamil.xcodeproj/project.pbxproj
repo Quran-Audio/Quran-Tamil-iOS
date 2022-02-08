@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C289E0827B20BD100E2454E /* QuranTamilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C289DF827B20BCF00E2454E /* QuranTamilApp.swift */; };
+		2C289E0927B20BD100E2454E /* QuranTamilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C289DF827B20BCF00E2454E /* QuranTamilApp.swift */; };
+		2C289E0A27B20BD100E2454E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C289DF927B20BCF00E2454E /* ContentView.swift */; };
+		2C289E0B27B20BD100E2454E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C289DF927B20BCF00E2454E /* ContentView.swift */; };
+		2C289E0C27B20BD100E2454E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C289DFA27B20BD100E2454E /* Assets.xcassets */; };
+		2C289E0D27B20BD100E2454E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C289DFA27B20BD100E2454E /* Assets.xcassets */; };
+		2C289E1827B20C3100E2454E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C289E1727B20C3100E2454E /* Launch Screen.storyboard */; };
+		2C289E1927B20C3100E2454E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C289E1727B20C3100E2454E /* Launch Screen.storyboard */; };
+		2C289E1C27B20D3200E2454E /* QuranAudioPlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2C289E1B27B20D3200E2454E /* QuranAudioPlayerKit */; };
+		2CAD77F327B21FF6000C3D45 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C289E1F27B20DBA00E2454E /* Data.json */; };
+		2CAD77F427B21FF7000C3D45 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C289E1F27B20DBA00E2454E /* Data.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C289DF827B20BCF00E2454E /* QuranTamilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranTamilApp.swift; sourceTree = "<group>"; };
+		2C289DF927B20BCF00E2454E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C289DFA27B20BD100E2454E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C289DFF27B20BD100E2454E /* QuranTamil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranTamil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C289E0527B20BD100E2454E /* QuranTamil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranTamil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C289E0727B20BD100E2454E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2C289E1627B20BDB00E2454E /* QuranTamil (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "QuranTamil (iOS).entitlements"; sourceTree = "<group>"; };
+		2C289E1727B20C3100E2454E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2C289E1D27B20D5200E2454E /* QuranTamil--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "QuranTamil--iOS--Info.plist"; sourceTree = "<group>"; };
+		2C289E1F27B20DBA00E2454E /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C289DFC27B20BD100E2454E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C289E1C27B20D3200E2454E /* QuranAudioPlayerKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C289E0227B20BD100E2454E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C289DF227B20BCF00E2454E = {
+			isa = PBXGroup;
+			children = (
+				2C289E1D27B20D5200E2454E /* QuranTamil--iOS--Info.plist */,
+				2C289E1627B20BDB00E2454E /* QuranTamil (iOS).entitlements */,
+				2C289DF727B20BCF00E2454E /* Shared */,
+				2C289E0627B20BD100E2454E /* macOS */,
+				2C289E0027B20BD100E2454E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C289DF727B20BCF00E2454E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2C289E1E27B20D9600E2454E /* Data */,
+				2C289DF827B20BCF00E2454E /* QuranTamilApp.swift */,
+				2C289DF927B20BCF00E2454E /* ContentView.swift */,
+				2C289DFA27B20BD100E2454E /* Assets.xcassets */,
+				2C289E1727B20C3100E2454E /* Launch Screen.storyboard */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2C289E0027B20BD100E2454E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C289DFF27B20BD100E2454E /* QuranTamil.app */,
+				2C289E0527B20BD100E2454E /* QuranTamil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C289E0627B20BD100E2454E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2C289E0727B20BD100E2454E /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		2C289E1E27B20D9600E2454E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2C289E1F27B20DBA00E2454E /* Data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C289DFE27B20BD100E2454E /* QuranTamil (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C289E1027B20BD100E2454E /* Build configuration list for PBXNativeTarget "QuranTamil (iOS)" */;
+			buildPhases = (
+				2C289DFB27B20BD100E2454E /* Sources */,
+				2C289DFC27B20BD100E2454E /* Frameworks */,
+				2C289DFD27B20BD100E2454E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QuranTamil (iOS)";
+			packageProductDependencies = (
+				2C289E1B27B20D3200E2454E /* QuranAudioPlayerKit */,
+			);
+			productName = "QuranTamil (iOS)";
+			productReference = 2C289DFF27B20BD100E2454E /* QuranTamil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C289E0427B20BD100E2454E /* QuranTamil (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C289E1327B20BD100E2454E /* Build configuration list for PBXNativeTarget "QuranTamil (macOS)" */;
+			buildPhases = (
+				2C289E0127B20BD100E2454E /* Sources */,
+				2C289E0227B20BD100E2454E /* Frameworks */,
+				2C289E0327B20BD100E2454E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QuranTamil (macOS)";
+			productName = "QuranTamil (macOS)";
+			productReference = 2C289E0527B20BD100E2454E /* QuranTamil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C289DF327B20BCF00E2454E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					2C289DFE27B20BD100E2454E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					2C289E0427B20BD100E2454E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 2C289DF627B20BCF00E2454E /* Build configuration list for PBXProject "QuranTamil" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C289DF227B20BCF00E2454E;
+			packageReferences = (
+				2C289E1A27B20D3200E2454E /* XCRemoteSwiftPackageReference "QuranAudioPlayerKit" */,
+			);
+			productRefGroup = 2C289E0027B20BD100E2454E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C289DFE27B20BD100E2454E /* QuranTamil (iOS) */,
+				2C289E0427B20BD100E2454E /* QuranTamil (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C289DFD27B20BD100E2454E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C289E1827B20C3100E2454E /* Launch Screen.storyboard in Resources */,
+				2C289E0C27B20BD100E2454E /* Assets.xcassets in Resources */,
+				2CAD77F327B21FF6000C3D45 /* Data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C289E0327B20BD100E2454E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C289E1927B20C3100E2454E /* Launch Screen.storyboard in Resources */,
+				2C289E0D27B20BD100E2454E /* Assets.xcassets in Resources */,
+				2CAD77F427B21FF7000C3D45 /* Data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C289DFB27B20BD100E2454E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C289E0A27B20BD100E2454E /* ContentView.swift in Sources */,
+				2C289E0827B20BD100E2454E /* QuranTamilApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C289E0127B20BD100E2454E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C289E0B27B20BD100E2454E /* ContentView.swift in Sources */,
+				2C289E0927B20BD100E2454E /* QuranTamilApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C289E0E27B20BD100E2454E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C289E0F27B20BD100E2454E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2C289E1127B20BD100E2454E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "QuranTamil (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46445P5L6D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QuranTamil--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abid.quran-audio.tamil";
+				PRODUCT_NAME = QuranTamil;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C289E1227B20BD100E2454E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "QuranTamil (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46445P5L6D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QuranTamil--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abid.quran-audio.tamil";
+				PRODUCT_NAME = QuranTamil;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C289E1427B20BD100E2454E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46445P5L6D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abid.quran-audio.QuranTamil";
+				PRODUCT_NAME = QuranTamil;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2C289E1527B20BD100E2454E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46445P5L6D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abid.quran-audio.QuranTamil";
+				PRODUCT_NAME = QuranTamil;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C289DF627B20BCF00E2454E /* Build configuration list for PBXProject "QuranTamil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C289E0E27B20BD100E2454E /* Debug */,
+				2C289E0F27B20BD100E2454E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C289E1027B20BD100E2454E /* Build configuration list for PBXNativeTarget "QuranTamil (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C289E1127B20BD100E2454E /* Debug */,
+				2C289E1227B20BD100E2454E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C289E1327B20BD100E2454E /* Build configuration list for PBXNativeTarget "QuranTamil (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C289E1427B20BD100E2454E /* Debug */,
+				2C289E1527B20BD100E2454E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C289E1A27B20D3200E2454E /* XCRemoteSwiftPackageReference "QuranAudioPlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quran-Audio/QuranAudioPlayerKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C289E1B27B20D3200E2454E /* QuranAudioPlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C289E1A27B20D3200E2454E /* XCRemoteSwiftPackageReference "QuranAudioPlayerKit" */;
+			productName = QuranAudioPlayerKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2C289DF327B20BCF00E2454E /* Project object */;
+}
