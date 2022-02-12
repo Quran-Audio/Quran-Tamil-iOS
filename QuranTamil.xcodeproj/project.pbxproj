@@ -13,8 +13,8 @@
 		2C289E0B27B20BD100E2454E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C289DF927B20BCF00E2454E /* ContentView.swift */; };
 		2C289E0C27B20BD100E2454E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C289DFA27B20BD100E2454E /* Assets.xcassets */; };
 		2C289E0D27B20BD100E2454E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C289DFA27B20BD100E2454E /* Assets.xcassets */; };
-		2C289E1827B20C3100E2454E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C289E1727B20C3100E2454E /* Launch Screen.storyboard */; };
-		2C289E1927B20C3100E2454E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C289E1727B20C3100E2454E /* Launch Screen.storyboard */; };
+		2C289E1827B20C3100E2454E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C289E1727B20C3100E2454E /* LaunchScreen.storyboard */; };
+		2C289E1927B20C3100E2454E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C289E1727B20C3100E2454E /* LaunchScreen.storyboard */; };
 		2C289E1C27B20D3200E2454E /* QuranAudioPlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2C289E1B27B20D3200E2454E /* QuranAudioPlayerKit */; };
 		2CAD77F327B21FF6000C3D45 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C289E1F27B20DBA00E2454E /* Data.json */; };
 		2CAD77F427B21FF7000C3D45 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C289E1F27B20DBA00E2454E /* Data.json */; };
@@ -28,7 +28,7 @@
 		2C289E0527B20BD100E2454E /* QuranTamil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranTamil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C289E0727B20BD100E2454E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		2C289E1627B20BDB00E2454E /* QuranTamil (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "QuranTamil (iOS).entitlements"; sourceTree = "<group>"; };
-		2C289E1727B20C3100E2454E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2C289E1727B20C3100E2454E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C289E1D27B20D5200E2454E /* QuranTamil--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "QuranTamil--iOS--Info.plist"; sourceTree = "<group>"; };
 		2C289E1F27B20DBA00E2454E /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +70,7 @@
 				2C289DF827B20BCF00E2454E /* QuranTamilApp.swift */,
 				2C289DF927B20BCF00E2454E /* ContentView.swift */,
 				2C289DFA27B20BD100E2454E /* Assets.xcassets */,
-				2C289E1727B20C3100E2454E /* Launch Screen.storyboard */,
+				2C289E1727B20C3100E2454E /* LaunchScreen.storyboard */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -185,7 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C289E1827B20C3100E2454E /* Launch Screen.storyboard in Resources */,
+				2C289E1827B20C3100E2454E /* LaunchScreen.storyboard in Resources */,
 				2C289E0C27B20BD100E2454E /* Assets.xcassets in Resources */,
 				2CAD77F327B21FF6000C3D45 /* Data.json in Resources */,
 			);
@@ -195,7 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C289E1927B20C3100E2454E /* Launch Screen.storyboard in Resources */,
+				2C289E1927B20C3100E2454E /* LaunchScreen.storyboard in Resources */,
 				2C289E0D27B20BD100E2454E /* Assets.xcassets in Resources */,
 				2CAD77F427B21FF7000C3D45 /* Data.json in Resources */,
 			);
@@ -343,11 +343,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "QuranTamil (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 46445P5L6D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "QuranTamil--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Quran Audio Tamil";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -377,11 +379,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "QuranTamil (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 46445P5L6D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "QuranTamil--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Quran Audio Tamil";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -413,11 +417,12 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 46445P5L6D;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,11 +446,12 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 46445P5L6D;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
