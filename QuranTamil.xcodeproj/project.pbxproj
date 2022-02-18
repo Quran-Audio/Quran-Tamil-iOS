@@ -16,6 +16,8 @@
 		2C289E1827B20C3100E2454E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C289E1727B20C3100E2454E /* LaunchScreen.storyboard */; };
 		2C289E1927B20C3100E2454E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C289E1727B20C3100E2454E /* LaunchScreen.storyboard */; };
 		2C289E1C27B20D3200E2454E /* QuranAudioPlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2C289E1B27B20D3200E2454E /* QuranAudioPlayerKit */; };
+		2C8242B627BF41D500FBDDB6 /* Localization.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C8242B527BF41D500FBDDB6 /* Localization.json */; };
+		2C8242B727BF41D500FBDDB6 /* Localization.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C8242B527BF41D500FBDDB6 /* Localization.json */; };
 		2CAD77F327B21FF6000C3D45 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C289E1F27B20DBA00E2454E /* Data.json */; };
 		2CAD77F427B21FF7000C3D45 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C289E1F27B20DBA00E2454E /* Data.json */; };
 /* End PBXBuildFile section */
@@ -32,6 +34,7 @@
 		2C289E1D27B20D5200E2454E /* QuranTamil--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "QuranTamil--iOS--Info.plist"; sourceTree = "<group>"; };
 		2C289E1F27B20DBA00E2454E /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 		2C8242B427BF3F0B00FBDDB6 /* QuranAudioPlayerKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = QuranAudioPlayerKit; path = ../QuranAudioPlayerKit; sourceTree = "<group>"; };
+		2C8242B527BF41D500FBDDB6 /* Localization.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Localization.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				2C289E1F27B20DBA00E2454E /* Data.json */,
+				2C8242B527BF41D500FBDDB6 /* Localization.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -189,6 +193,7 @@
 			files = (
 				2C289E1827B20C3100E2454E /* LaunchScreen.storyboard in Resources */,
 				2C289E0C27B20BD100E2454E /* Assets.xcassets in Resources */,
+				2C8242B627BF41D500FBDDB6 /* Localization.json in Resources */,
 				2CAD77F327B21FF6000C3D45 /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +204,7 @@
 			files = (
 				2C289E1927B20C3100E2454E /* LaunchScreen.storyboard in Resources */,
 				2C289E0D27B20BD100E2454E /* Assets.xcassets in Resources */,
+				2C8242B727BF41D500FBDDB6 /* Localization.json in Resources */,
 				2CAD77F427B21FF7000C3D45 /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
