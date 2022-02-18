@@ -31,6 +31,7 @@
 		2C289E1727B20C3100E2454E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C289E1D27B20D5200E2454E /* QuranTamil--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "QuranTamil--iOS--Info.plist"; sourceTree = "<group>"; };
 		2C289E1F27B20DBA00E2454E /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		2C8242B427BF3F0B00FBDDB6 /* QuranAudioPlayerKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = QuranAudioPlayerKit; path = ../QuranAudioPlayerKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		2C289DF227B20BCF00E2454E = {
 			isa = PBXGroup;
 			children = (
+				2C8242B427BF3F0B00FBDDB6 /* QuranAudioPlayerKit */,
 				2C289E1D27B20D5200E2454E /* QuranTamil--iOS--Info.plist */,
 				2C289E1627B20BDB00E2454E /* QuranTamil (iOS).entitlements */,
 				2C289DF727B20BCF00E2454E /* Shared */,
@@ -342,6 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "QuranTamil (iOS).entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 46445P5L6D;
@@ -378,6 +381,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "QuranTamil (iOS).entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 46445P5L6D;
